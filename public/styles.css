@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #121417;
+  overflow: hidden;
+}
+
+.rating {
+  display: flex;
+  flex-direction: column;
+  background: radial-gradient(at top, #232933, #181e28);
+  border-radius: 2rem;
+  color: white;
+  padding: 2rem;
+  width: 400px;
+  height: 400px;
+  gap: 1.2rem;
+}
+
+.star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14%;
+  height: 14%;
+  border-radius: 2rem;
+  background-color: #252d37;
+  margin-bottom: 0.5rem;
+}
+
+.star img {
+  width: 35%;
+  height: 35%;
+}
+
+.rating h1 {
+  font-size: 1.6rem;
+}
+
+.desc {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 15%;
+  margin-bottom: 0.5rem;
+}
+
+.option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #252d37;
+  border-radius: 2rem;
+  color: rgba(255, 255, 255, 0.4);
+  width: 15%;
+  height: 100%;
+}
+
+.rating button {
+  height: 12.5%;
+  border-radius: 2rem;
+  background-color: #fb7413;
+  color: white;
+  border: none;
+}
+
+.rating button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #fb7413;
+}
+
+.option:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: white;
+}
+
+.submitted {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: radial-gradient(at top, #232933, #181e28);
+  border-radius: 2rem;
+  padding: 2rem;
+  color: white;
+  width: 400px;
+  height: 400px;
+  gap: 1rem;
+}
+
+.submitted img {
+  height: 32%;
+  width: 45%;
+  margin-bottom: 1rem;
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  color: #fb7413;
+  background-color: #252d37;
+  width: 60%;
+  height: 9%;
+  margin-bottom: 1rem;
+}
+
+.submitted p:nth-child(4) {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+}
